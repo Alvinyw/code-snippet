@@ -37,6 +37,11 @@ const router = new Router({
             component: () => import('@/views/codehighlight')
         },
 
+        {
+            path: '/tooltip',
+            component: () => import('@/views/tooltip')
+        },
+
         // 404 page must be placed at the end !!!
         {
             path: '*',
