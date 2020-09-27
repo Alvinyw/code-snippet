@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "alvin-canvasdrag": "^1.2.0",
+    "alvin-canvasturntable": "^1.0.0",
     "alvin-codehighlight": "^1.1.0",
     "alvin-imageviewer": "^1.9.0",
     "alvin-tooltip": "^1.2.1",

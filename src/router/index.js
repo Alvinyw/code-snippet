@@ -42,6 +42,11 @@ const router = new Router({
             component: () => import('@/views/tooltip')
         },
 
+        {
+            path: '/canvasTurntable',
+            component: () => import('@/views/canvasTurntable')
+        },
+
         // 404 page must be placed at the end !!!
         {
             path: '*',
