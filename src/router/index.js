@@ -47,6 +47,11 @@ const router = new Router({
             component: () => import('@/views/canvasTurntable')
         },
 
+        {
+            path: '/typewriter',
+            component: () => import('@/views/typewriter')
+        },
+
         // 404 page must be placed at the end !!!
         {
             path: '*',

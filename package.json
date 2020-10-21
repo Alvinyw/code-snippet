@@ -13,6 +13,7 @@
     "alvin-codehighlight": "^1.1.0",
     "alvin-imageviewer": "^1.9.0",
     "alvin-tooltip": "^1.2.1",
+    "alvin-typewriter": "^1.0.0",
     "core-js": "^2.6.5",
     "element-ui": "^2.11.1",
     "file-saver": "^2.0.2",
