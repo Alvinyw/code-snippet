@@ -52,6 +52,21 @@ const router = new Router({
             component: () => import('@/views/typewriter')
         },
 
+        {
+            path: '/identifyCode',
+            component: () => import('@/views/identifyCode')
+        },
+
+        {
+            path: '/electronicSignature',
+            component: () => import('@/views/electronicSignature')
+        },
+        
+        {
+            path: '/404',
+            name: '404',
+            component: () => import( /* webpackChunkName: "home" */ '@/views/notFound'),
+          },
         // 404 page must be placed at the end !!!
         {
             path: '*',

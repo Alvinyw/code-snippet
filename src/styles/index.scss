@@ -1,0 +1,11 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+  padding: 0;
+  margin: 0;
+}
+
